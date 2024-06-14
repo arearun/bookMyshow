@@ -1,0 +1,53 @@
+{
+  "images":[
+    {
+      "url": "../../../assets/ajentsaiSrinivas.jpg",
+      "alt": "ajentsaiSrinivas",
+      "movieName": "ajentsaiSrinivas",
+      "id": 0
+    },
+    {
+      "url": "../../../assets/bahubali.jpg",
+      "alt": "bahubali",
+      "movieName": "bahubali",
+      "id": 1
+    },
+    {
+      "url": "../../../assets/bolashankar.jpg",
+      "alt": "bolashankar",
+      "movieName": "bolashankar",
+      "id": 2
+    },
+    {
+      "url": "../../../assets/djTillu.jpg",
+      "alt": "djTillu",
+      "movieName": "djTillu",
+      "id": 3
+    },
+    {
+      "url": "../../../assets/Hit.jpg",
+      "alt": "Hit",
+      "movieName": "Hit",
+      "id": 4
+    },
+    {
+      "url": "../../../assets/kgf.jpg",
+      "alt": "kgf",
+      "movieName": "kgf",
+      "id": 5
+    },
+    {
+      "url": "../../../assets/RRR.jpg",
+      "alt": "RRR",
+      "movieName": "RRR",
+      "id": 6
+    },
+    {
+      "url": "../../../assets/salaar.jpg",
+      "alt": "salaar",
+      "movieName": "salaar",
+      "id": 7
+    }
+  ]
+
+}

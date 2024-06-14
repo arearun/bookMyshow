@@ -1,0 +1,44 @@
+<div class="row allBagColor" *ngIf="moveieDatabyImage">
+  <div class="image-gallery col-md-4">
+    <div class="image-container">
+      <img [src]="moveieDatabyImage.images.url" [alt]="moveieDatabyImage.images.alt">
+      </div>
+  </div>
+  <div class="col-md-8 moviesDataId" *ngIf="movieDataById">
+    <h1>{{movieDataById.movieName | titlecase}}</h1>
+    <div class="row intrests">
+      <div class="col-md-8">
+        <p><span><button><i class="bi bi-hand-thumbs-up"></i></button></span>61.9K are interested</p>
+        <p style="font-size: 10px;">Are you interested in watching this movie?</p>
+      </div>
+      <div class="col-md-4">
+        <button type="button" class="btn btn-light"><p>I'm Intrested</p></button>
+      </div>
+    </div>
+    <div class="row langN2d">
+      <div class="col-md-1">
+        <button class="btn btn-light">{{movieDataById.dimension}}</button>
+      </div>
+      <div class="col-md-3">
+        <button class="btn btn-light">{{movieDataById.language}}</button>
+      </div>
+    </div>
+    <div class="row genere">
+      <div class="col">
+        {{movieDataById.genere}}
+      </div>
+    </div>
+    <div class="row time">
+      <div class="col">
+        {{movieDataById.date | date : "EEEE YYYY-MM-dd hh:mm:ss.SSS OOOO" }}
+      </div>
+    </div>
+    <div class="row bookticketLogo">
+      <div class="col">
+        <button type="button" class="btn btn-danger">Book Tickets</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+

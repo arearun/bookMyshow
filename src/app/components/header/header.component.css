@@ -1,0 +1,23 @@
+img{
+  width: 110px;
+
+}
+input{
+  margin-right: 10%;
+  /* width: 210%; */
+  margin-top: 10px;
+  width: 500%;
+}
+.logoLeft{
+  margin-left: 17%;
+}
+.subnav{
+  font-weight: 500;
+}
+.subnav a:nth-child(1){
+ margin-left: 18%;
+}
+.subnav1{
+  font-weight: 500;
+  margin-left: 40%;
+}

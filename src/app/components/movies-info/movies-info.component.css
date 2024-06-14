@@ -1,0 +1,59 @@
+/* *{
+  background-image: url(moveieDatabyImage.url);
+} */
+img {
+  width: 60%;
+  height: 370px;
+  border-radius: 20px;
+  margin: 5px;
+  margin: 4% 4% 4% 16%;
+}
+.allBagColor {
+  background-color: rgb(0 0 0 / 77%);
+}
+.moviesDataId {
+  margin-top: 6%;
+}
+.moviesDataId h1 {
+  color: rgb(255, 255, 255);
+}
+.intrests {
+  border: 1px solid;
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  margin: 0% 55% 2% 0%;
+  padding: 2% 0% 0% 0%;
+  border-radius: 15px;
+}
+.intrests div p:nth-child(1) {
+  margin-bottom: 0%;
+}
+i {
+  font-size: 20px;
+}
+.intrests div p span {
+  margin-right: 2%;
+}
+.intrests div:nth-child(2) button {
+  font-size: 14px;
+  margin-top: 14%;
+}
+.langN2d{
+  margin-bottom: 2%;
+}
+.genere{
+  color: white;
+  margin-bottom: 1%;
+}
+.time{
+  color: white;
+  margin-bottom: 2%;
+}
+.bookticketLogo{
+  margin-bottom: 10%;
+}
+.bookticketLogo button{
+  font-size: 20px;
+  border-radius: 10px;
+  width: 25%;
+}

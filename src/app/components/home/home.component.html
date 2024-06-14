@@ -1,0 +1,20 @@
+
+
+<!-- {{visibleImages | json}} -->
+<div class="image-gallery">
+  <button class="btn btn-light arrow left" (click)="scrollLeft()">
+    <i class="bi bi-arrow-left-square-fill"></i>
+  </button>
+  <div class="image-container"  >
+    <a *ngFor="let image of visibleImages">
+      <img [src]="image.url" [alt]="image.movieName" (click)="onMovieClick(image.id)"><br>
+
+      <p>{{image.movieName | titlecase}}</p>
+    </a>
+
+  </div>
+  <button class="btn btn-light arrow right" (click)="scrollRight()">
+    <i class="bi bi-arrow-right-square-fill"></i>
+  </button>
+</div>
+
